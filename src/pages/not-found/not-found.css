@@ -1,0 +1,8 @@
+.p404{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 600px;
+    align-items: center;
+ 
+}

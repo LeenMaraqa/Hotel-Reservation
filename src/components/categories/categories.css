@@ -1,0 +1,97 @@
+.categories h1{
+    color: white;
+    font-family: Helvetica;
+    font-size: 38px;
+    font-weight: 700;
+
+}
+.categories{
+    /* margin: 200px; */
+    margin-bottom: 0px;
+    margin-top: 50px;
+    margin-left: 220px;
+    padding-bottom: 70px;
+}
+.test{
+background-color: white;}
+.categories button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+    /* opacity: 50%; */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    opacity: 0.6;
+   margin-top: 20px;
+   margin-left: 20px;
+}
+.categories button:hover{
+    opacity: unset;
+}
+/* .hotels{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+button>div{
+    height: 35px;
+    width: 40px;
+    margin-left: 10px;
+    background-size: cover;
+    margin-bottom: 10px;
+    /* opacity: 100%; */
+}
+.beaches{
+    background-image: url("../../images/beaches.png");
+}
+.deserts{
+    background-image: url("../../images/deserts.png");
+}
+.mountains{
+    background-image: url("../../images/mountains.png");
+}
+.iconicCities{
+    margin-left: 15px;
+
+    background-image: url("../../images/iconiccities.png");
+}
+.houseboats{
+    background-image: url("../../images/houseboats.png");
+    margin-left: 15px;
+
+}
+.countrySide{
+    background-image: url("../../images/countryside.png");
+    margin-left: 20px;
+}
+.castles{
+    background-image: url("../../images/castels.png");
+    margin-right: 5px;
+}
+.skiing{
+    background-image: url("../../images/skiing.png");
+    margin-right: 10px;
+}
+.camping{
+    background-image: url("../../images/camping.png");
+}
+.tropical{
+    background-image: url("../../images/tropical.png");
+}
+
+.tophotels span{
+    padding-top: 0px;
+    /* color: #2f80ed; */
+    /* width: 200px;
+    height: 30px; */
+    margin-left:-230px ; 
+    background-color: cadetblue;
+  
+}

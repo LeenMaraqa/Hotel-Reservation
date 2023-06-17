@@ -1,0 +1,22 @@
+.allhotel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 1349px;
+  background-image: none;
+  /* margin-left: 140px; */
+  justify-content: space-around;
+  background-color: lightblue;
+}
+.maincontent {
+  margin: 50px 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-around;
+}
+div.tophotels {
+  color: black;
+  margin-top: 800px;
+}

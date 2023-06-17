@@ -1,0 +1,84 @@
+.header {
+  position: absolute;
+  /* width: 1166px; */
+  width: auto;
+  height: 85px;
+  left: 0px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.02);
+  /* background-image: url("../../images/cover.png"); */
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 598px;
+  position: absolute;
+  width: 1272px;
+  height: 60px;
+  left: 47px;
+  top: 24px;
+}
+span {
+  width: 77px;
+  height: 37px;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  color: white;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-bottom: 70px;
+}
+.links {
+  color: white;
+  font-family: Helvetica;
+  font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 45px;
+  gap: 24px;
+  width: 600px;
+  height: 34px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+  padding-bottom: 70px;
+}
+
+.links :hover {
+  color: white;
+  opacity: 0.4;
+  text-decoration: none;
+}
+.userBox {
+  display: flex;
+  align-items: center;
+  width: 80px;
+  justify-content: space-between;
+  color: white;
+  font-family: Helvetica;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+.userBox button {
+  background-color: transparent;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.optional-box {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
